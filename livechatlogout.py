@@ -1,7 +1,7 @@
 import  requests 
 from requests.auth import HTTPBasicAuth
 
-url = "https://api.livechatinc.com/agents/cesary@carmine.io"
+url = "https://api.livechatinc.com/agents/AGENT_EMAIL"
 
 auth=HTTPBasicAuth('USERNAME', 'PASSWORD')
 headers= {'X-API-Version': '2'}
